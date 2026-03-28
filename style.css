@@ -1,0 +1,274 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF5F8;
+    font-family: calibri;
+    margin: 0px;
+}
+
+/*main page*/
+.mainnavdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainnavdiv img{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.mainnavdiv h1{
+    color: #2B2B2B;
+    font-weight: lighter;
+}
+
+.mainnavdiv h3{
+    color: #2B2B2B;
+    margin-bottom: 10px;
+}
+
+.mainnavdiv button {
+    border: none;
+    background: #F48FB1;
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.mainnavdiv button a {
+    color: #2B2B2B;
+    padding : 9px;
+    display: block;
+}
+
+.mainnavdiv button a:hover{
+   background-color: #EC407A;
+   color: white;
+   border-radius: 4px;
+}
+
+.footer-main {
+    background-color:#F48FB1;
+    color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-general{
+    background-color:#F48FB1;
+    color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*end of main page*/
+
+/*navigation bar*/
+.navbar {
+    background: #F48FB1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 65px;
+}
+
+.logo a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; 
+    align-items: center;
+}
+
+
+.nav-links a {
+    color: #2B2B2B;
+    padding: 10px 15px;
+    display: block;
+    margin: 5px;
+}
+
+.nav-links a:hover {
+    background-color: #EC407A;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav-links button {
+    border: none;
+    background: none;
+}
+.nav-links button a {
+    padding: 10px 15px;
+    background-color: #2B2B2B;
+    color: white;
+    border-radius: 5px;
+}
+.nav-links button a:hover {
+    background-color: #EC407A;
+}
+
+/*end of navigation bar*/
+
+/*about me*/
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.about-image{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img{
+    display: flex;
+    width: 100%;       
+    max-width: 400px; 
+    min-width: 100px;
+    height: auto; 
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 65px;
+    color: #2B2B2B;
+}
+
+.about-text{    
+    margin-left: 150px;
+    text-align: justify;
+    width: 500px;
+    color: #2B2B2B;
+}
+
+.about-text p{
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #2B2B2B;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.box{
+    background-color: #F48FB1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-right: 20px;
+    color: #2B2B2B;
+}
+
+.box h3{
+    font-size: 25px;
+    font-weight: normal; 
+    padding-top: 3px ;
+    text-align: center;
+}
+
+.box p{
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+}
+/*end of about me*/
+
+/*tech stack*/
+.techstack{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.techstack-text{
+    text-align:center;
+    max-width: 500px;
+    padding-top:45px;
+}
+
+.techstack-photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.techstack-photos img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.techstack-photos h2{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: normal;
+    color: #2B2B2B;
+    margin-left: 10px;
+}
+
+#sqllogo img{
+    display: flex;
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+    transition: transform 0.2s ease;
+}
