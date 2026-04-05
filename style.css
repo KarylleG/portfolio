@@ -5,18 +5,108 @@
 }
 
 body {
-    background-color: #FFF5F8;
+    background-color: #2B2B2B;
     font-family: calibri;
     margin: 0px;
 }
 
+/* navigation bar */
+.navbar {
+    background: #5A5A5A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 65px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+/* logo */
+.logo a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+/* nav links */
+.nav-links {
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.nav-links a {
+    color: #E0E0E0;
+    padding: 10px 15px;
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #7D7D7D;
+    color: #E0E0E0;
+    border-radius: 5px;
+}
+
+.nav-links button {
+    border: none;
+    background: none;
+}
+
+.nav-links button a {
+    padding: 10px 15px;
+    background-color: #2B2B2B;
+    color: #E0E0E0;
+    border-radius: 5px;
+}
+
+.nav-links button a:hover {
+    background-color: #7D7D7D;
+}
+
+body{
+    padding-top: 75px;
+}
+
+
+/* end of navigation bar */
+
 /*main page*/
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    background-color:  #2B2B2B; 
+}
+
 .mainnavdiv{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 120px); 
 }
 
 .mainnavdiv img{
@@ -28,18 +118,17 @@ body {
 }
 
 .mainnavdiv h1{
-    color: #2B2B2B;
-    font-weight: lighter;
+    color: #E0E0E0;
 }
 
 .mainnavdiv h3{
-    color: #2B2B2B;
+    color: #E0E0E0;
     margin-bottom: 10px;
 }
 
 .mainnavdiv button {
     border: none;
-    background: #F48FB1;
+    background: #5A5A5A;
     margin-top: 10px;
     width: 200px;
     height: 35px;
@@ -47,20 +136,20 @@ body {
 }
 
 .mainnavdiv button a {
-    color: #2B2B2B;
+    color: #E0E0E0;   
     padding : 9px;
     display: block;
 }
 
 .mainnavdiv button a:hover{
-   background-color: #EC407A;
+   background-color: #7D7D7D;
    color: white;
    border-radius: 4px;
 }
 
 .footer-main {
-    background-color:#F48FB1;
-    color: #2B2B2B;
+    background-color:#5A5A5A;
+    color: #E0E0E0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,152 +158,77 @@ body {
     bottom: 0;
     width: 100%;
 }
-
-.footer-general{
-    background-color:#F48FB1;
-    color: #2B2B2B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
-    bottom: 0;
-    width: 100%;
-}
-
 
 /*end of main page*/
 
-/*navigation bar*/
-.navbar {
-    background: #F48FB1;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
-.navdiv {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    height: 65px;
-}
-
-.logo a {
-    font-size: 20px;
-    font-weight: bold;
-    color: #2B2B2B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo img{
-    height: 60px;
-    width: 60px;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex; 
-    align-items: center;
-}
-
-
-.nav-links a {
-    color: #2B2B2B;
-    padding: 10px 15px;
-    display: block;
-    margin: 5px;
-}
-
-.nav-links a:hover {
-    background-color: #EC407A;
-    color: white;
-    border-radius: 5px;
-}
-
-.nav-links button {
-    border: none;
-    background: none;
-}
-.nav-links button a {
-    padding: 10px 15px;
-    background-color: #2B2B2B;
-    color: white;
-    border-radius: 5px;
-}
-.nav-links button a:hover {
-    background-color: #EC407A;
-}
-
-/*end of navigation bar*/
-
-/*about me*/
+/* about me */
 .about{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 100px;
+    gap: 50px; 
 }
 
 .about-image{
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .about-image img{
-    display: flex;
-    width: 100%;       
-    max-width: 400px; 
+    width: 100%;
+    max-width: 300px;  
     min-width: 100px;
-    height: auto; 
+    height: auto;
     border-radius: 50%;
 }
 
 .title {
     font-size: 65px;
-    color: #2B2B2B;
+    color: #E0E0E0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .about-text{    
-    margin-left: 150px;
+    max-width: 500px;
+    width: 100%;
     text-align: justify;
-    width: 500px;
-    color: #2B2B2B;
+    color: #E0E0E0;
 }
 
 .about-text p{
     line-height: 1.5;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #2B2B2B;
+    color: #E0E0E0;
 }
 
 .hobbies {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    flex-wrap: wrap; 
+    gap: 20px;
 }
 
 .box{
-    background-color: #F48FB1;
+    background-color: #5A5A5A;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
-    margin-right: 20px;
-    color: #2B2B2B;
+    color: #E0E0E0;
 }
 
 .box h3{
     font-size: 25px;
     font-weight: normal; 
-    padding-top: 3px ;
+    padding-top: 3px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .box p{
@@ -223,7 +237,24 @@ body {
     font-size: 17px;
     text-align: justify;
 }
-/*end of about me*/
+
+/* responsive design for about me section*/
+@media (max-width: 768px){
+    .about{
+        flex-direction: column;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .about-text{
+        text-align: center;
+    }
+}
+/* end of about me */
 
 /*tech stack*/
 .techstack{
@@ -238,6 +269,7 @@ body {
     text-align:center;
     max-width: 500px;
     padding-top:45px;
+    color: #E0E0E0;
 }
 
 .techstack-photos{
@@ -261,7 +293,7 @@ body {
     justify-content: center;
     font-size: 25px;
     font-weight: normal;
-    color: #2B2B2B;
+    color: #E0E0E0;
     margin-left: 10px;
 }
 
