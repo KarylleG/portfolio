@@ -199,6 +199,7 @@ body{
 }
 
 .about-text p{
+    font-size: 17px;
     line-height: 1.5;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -336,8 +337,8 @@ body{
     display: flex;           
     justify-content: center;
     align-items: center;
-    gap: 40px;                  
-    padding-top: 230px;
+    gap: 40px;  
+    padding: 250px;                
 }
 
 
@@ -346,6 +347,8 @@ body{
 }
 
 .contact-text p{
+    font-size: 17px;
+    line-height: 1.5;
     text-align: left;         
     margin-top: 20px;
     color: #E0E0E0;
@@ -356,7 +359,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 59px;
 }
 
 .contact-contents button{
@@ -366,22 +369,66 @@ body{
     height: 35px;
     border-radius: 4px;
     margin: 5px;
-
 }
-
-.contact-links {
-    padding: 10px;
-}
-
 
 .contact-links a {
     color: #E0E0E0;
     display: block;
     text-decoration: none;
+    padding: 9px;
 }
 
 .contact-links a:hover {
     background-color: #7D7D7D;
     color: #E0E0E0;
     border-radius: 5px;
+}
+
+/* For tablets and small desktops */
+@media (max-width: 768px) and (min-width: 321px) {
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .contact-text p{
+        text-align: center;
+        font-size: px;
+    }
+
+    .contact-contents {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+}
+
+/*for mobile devices */
+@media (max-width: 320px){
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .contact-text p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-contents{
+        padding-top: 0;
+    }
 }
