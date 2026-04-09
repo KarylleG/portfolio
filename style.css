@@ -340,11 +340,9 @@ body{
 
 /*Certifications*/
 
-.title{
-    padding-top: 25px;
-    font-size: 65px;
-    color: #E0E0E0;
+main > h2.title {
     text-align: center;
+    padding-top: 20px;
 }
 
 .certifications {
