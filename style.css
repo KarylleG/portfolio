@@ -181,7 +181,6 @@ body{
 .about-image img{
     width: 100%;
     max-width: 300px;  
-    min-width: 100px;
     height: auto;
     border-radius: 50%;
 }
@@ -239,11 +238,16 @@ body{
 }
 
 /* responsive design for about me section*/
-@media (max-width: 768px){
+/* For tablets and small desktops */
+@media (max-width: 768px) and (min-width: 321px) {
     .about{
         flex-direction: column;
-        padding: 50px 20px;
+        padding: 35px 20px;
         text-align: center;
+    }
+
+    .about-image img{
+        max-width: 300px;
     }
 
     .title{
@@ -252,8 +256,30 @@ body{
 
     .about-text{
         text-align: center;
+        font-size: 25px;
     }
 }
+
+/*for mobile devices */
+@media (max-width: 768px){
+    .about{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img{
+        max-width: 300px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .about-text{
+        font-size: 15px;
+    }
+}
+
 /* end of about me */
 
 /*tech stack*/
@@ -311,7 +337,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 40px;                  
-    padding-top: 250px;
+    padding-top: 230px;
 }
 
 
@@ -327,9 +353,10 @@ body{
 
 .contact-contents{
     display: flex;
-    flex-direction: block;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 
 .contact-contents button{
@@ -339,11 +366,10 @@ body{
     height: 35px;
     border-radius: 4px;
     margin: 5px;
+
 }
 
 .contact-links {
-    display: flex;
-    flex-direction: column;
     padding: 10px;
 }
 
@@ -352,13 +378,10 @@ body{
     color: #E0E0E0;
     display: block;
     text-decoration: none;
-    width: 100%;
-    height: 100%;
 }
 
 .contact-links a:hover {
     background-color: #7D7D7D;
     color: #E0E0E0;
     border-radius: 5px;
-
 }
