@@ -288,6 +288,7 @@ body{
 
 /* end of about me */
 
+
 /*tech stack*/
 .techstack{
     display: flex;
@@ -336,6 +337,50 @@ body{
     margin-top: 20px;
     transition: transform 0.2s ease;
 }
+
+/*Certifications*/
+
+.title{
+    padding-top: 25px;
+    font-size: 65px;
+    color: #E0E0E0;
+    text-align: center;
+}
+
+.certifications {
+    display: flex;
+    justify-content: center;   
+    gap: 50px;                        
+    padding-top: 10px;
+}
+
+.certification-contents {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;      
+    text-align: center;        
+    max-width: 550px;       
+    width: 100%;
+    gap: 15px;               
+}
+.certification-title {
+    font-size: 25px;
+    color: #E0E0E0;
+}
+
+.certification-contents img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.certification-contents p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #E0E0E0;
+}
+
+/*end of certifications*/
 
 /*Contact Me*/
 .contact{
