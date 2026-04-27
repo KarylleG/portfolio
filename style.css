@@ -137,7 +137,7 @@ body{
 
 .mainnavdiv button a {
     color: #E0E0E0;   
-    padding : 9px;
+    padding : auto;
     display: block;
 }
 
@@ -145,18 +145,6 @@ body{
    background-color: #7D7D7D;
    color: white;
    border-radius: 4px;
-}
-
-.footer-main {
-    background-color:#5A5A5A;
-    color: #E0E0E0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 /*end of main page*/
@@ -387,7 +375,7 @@ main > h2.title {
     justify-content: center;
     align-items: center;
     gap: 40px;  
-    padding: 250px;                
+    padding: 200px;                
 }
 
 
