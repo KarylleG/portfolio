@@ -89,6 +89,20 @@ body{
 
 /* end of navigation bar */
 
+/*footer*/
+.footer {
+  background-color: #5A5A5A;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  position: fixed;   
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+/* end of footer */
+
+
 /*main page*/
 
 #particles-js {
