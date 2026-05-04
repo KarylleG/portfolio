@@ -134,6 +134,7 @@ body {
 
 .mainnavdiv h3{
     color: #E0E0E0;
+    font-family: 'Playfair Display', serif;
     margin-bottom: 10px;
 }
 
@@ -227,7 +228,7 @@ body {
     font-weight: normal; 
     padding-top: 3px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 
@@ -335,6 +336,7 @@ body {
     color: #E0E0E0;
     margin-left: 10px;
     justify-content: center;
+    font-family: 'Playfair Display', serif;
 }
 
 /* For tablets and small desktops */
