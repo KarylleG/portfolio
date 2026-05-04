@@ -8,6 +8,7 @@ body {
     background-color: #2B2B2B;
     font-family: calibri;
     margin: 0px;
+    padding-top: 75px;
 }
 
 /* navigation bar */
@@ -80,10 +81,6 @@ body {
 
 .nav-links button a:hover {
     background-color: #7D7D7D;
-}
-
-body{
-    padding-top: 75px;
 }
 
 
@@ -428,9 +425,6 @@ main > h2.title {
         text-align: center;
     }
 }
-
-
-
 /*end of certifications*/
 
 /*Contact Me*/
@@ -441,7 +435,6 @@ main > h2.title {
     gap: 40px;  
     padding: 200px;                
 }
-
 
 .contact-text{
     max-width: 500px;
