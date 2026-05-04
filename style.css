@@ -188,7 +188,7 @@ body {
 .title {
     font-size: 65px;
     color: #E0E0E0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .about-text{    
@@ -336,6 +336,37 @@ body {
     margin-left: 10px;
     justify-content: center;
 }
+
+/* For tablets and small desktops */
+@media (max-width: 768px) and (min-width: 321px) {
+    .techstack{
+        padding: 50px 20px;
+    }
+
+    .techstack-text{
+        font-size: 25px;
+    }
+
+    .techstack-photos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .techstack-photos img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .techstack-photos h2 {
+        font-size: 20px;
+    }
+}
+
+/*for mobile devices */
+@media (max-width: 768px){
+   
+}
+
 /*end of tech stack*/
 
 
