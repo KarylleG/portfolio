@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karylle Gimalalud | Contact Me</title>
-    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
     <!-- Particles Background -->
     <div id="particles-js">
-        <script type = "text/javascript" src="particles.js"></script>
-        <script type = "text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="particles.js"></script>
+        <script type="text/javascript" src="app.js"></script>
     </div>
 
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="navdiv">
-            <div class = "logo"><a href ="index.html"><img src ="pictures/gimalalud-website-logo.svg" alt="Karylle Gimalalud Logo">
-                Karylle
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="pictures/gimalalud-website-logo.svg" alt="Logo">
+                    Karylle
                 </a>
             </div>
-            
+
+            <!-- Hamburger Menu (Bulma-style) -->
+            <div class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about-me.html">About</a></li>
@@ -31,30 +44,53 @@
                 <li><a href="certifications.html">Certifications</a></li>
                 <li><button><a href="contact-me.html">Contact Me</a></button></li>
             </ul>
+
         </div>
     </nav>
 
     <!-- Contact Me -->
-     <main class = "contact">
+    <main class="contact">
 
-        <div class = "contact-text">
-            <h2 class ="title">Get in Touch!</h2>
-            <p>Hi there! I’d love to hear from you and get to know you better. Whether you have questions, ideas, or just want to say hello, feel free to reach out. I enjoy connecting with people and sharing thoughts on anything interesting. Don’t hesitate to drop a message anytime—I’m always happy to chat. Looking forward to hearing from you soon!</p>
-        </div> 
+        <div class="contact-text">
+            <h2 class="title">Get in Touch!</h2>
 
-        <div class = "contact-contents">
-            <button class="contact-links"><a href ="https://www.linkedin.com/in/karylle-gimalalud-b8ab68400/">Linkedin</a></button>
-            <button class="contact-links"><a href ="https://www.facebook.com/kakaroachh/">Facebook</a></button>
-            <button class="contact-links"><a href ="https://www.instagram.com/karyllegmlld">Instagram</a></button>
+            <p>
+                Hi there! I’d love to hear from you and get to know you better. Whether you have questions, ideas, or just want to say hello, feel free to reach out. I enjoy connecting with people and sharing thoughts on anything interesting. Don’t hesitate to drop a message anytime—I’m always happy to chat. Looking forward to hearing from you soon!
+            </p>
         </div>
 
-    
-        
+        <div class="contact-contents">
+            <button class="contact-links">
+                <a href="https://www.linkedin.com/in/karylle-gimalalud-b8ab68400/">LinkedIn</a>
+            </button>
+
+            <button class="contact-links">
+                <a href="https://www.facebook.com/kakaroachh/">Facebook</a>
+            </button>
+
+            <button class="contact-links">
+                <a href="https://www.instagram.com/karyllegmlld">Instagram</a>
+            </button>
+        </div>
+
     </main>
 
     <footer class="footer">
         <p>© 2026 Karylle Gimalalud. All rights reserved.</p>
     </footer>
+
+    <!-- Burger Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const burger = document.querySelector('.navbar-burger');
+            const menu = document.querySelector('.nav-links');
+
+            burger.addEventListener('click', () => {
+                burger.classList.toggle('is-active');
+                menu.classList.toggle('is-active');
+            });
+        });
+    </script>
 
 </body>
 </html>

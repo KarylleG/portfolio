@@ -260,6 +260,28 @@ body {
         text-align: center;
         font-size: 25px;
     }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #5A5A5A;
+        width: 100%;
+        position: absolute;
+        top: 65px;
+        left: 0;
+    }
+
+   .navbar-burger {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar-burger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background: #E0E0E0;
+}
 }
 
 /*for mobile devices */
@@ -284,6 +306,24 @@ body {
     .box{
         max-width: 300px;
         min-width: 250px;
+    }
+
+ .navbar-burger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #5A5A5A;
+        position: absolute;
+        top: 65px;
+        left: 0;
+    }
+
+    .nav-links.is-active {
+        display: flex;
     }
 }
 
@@ -457,6 +497,34 @@ main > h2.title {
         font-size: 16px;
         text-align: center;
     }
+
+    .navbar-burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar-burger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background: #E0E0E0;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #5A5A5A;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        text-align: center;
+    }
+
+    .nav-links.is-active {
+        display: flex;
+    }
 }
 /*end of certifications*/
 
@@ -555,12 +623,47 @@ main > h2.title {
     }
 
     .contact-text p{
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
 
     }
 
     .contact-contents{
         padding-top: 0;
+    }
+
+    /* show burger */
+    .navbar-burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar-burger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background: #E0E0E0;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #5A5A5A;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        text-align: center;
+    }
+    
+    .nav-links.is-active {
+        display: flex;
+    }
+
+    .nav-links a,
+    .nav-links button {
+        padding: 15px;
+        width: 100%;
     }
 }
