@@ -200,7 +200,7 @@ main {
 .about-text {
     max-width: 500px;
     width: 100%;
-    text-align: justify;
+    text-align: left;
     color: #E0E0E0;
     font-family: 'Inter', sans-serif;
 }
