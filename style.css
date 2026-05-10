@@ -6,7 +6,6 @@
 
 body {
     background-color: #2B2B2B;
-    font-family: calibri;
     margin: 0;
     padding-top: 75px;
     display: flex;
@@ -19,7 +18,7 @@ main {
 }
 
 .footer {
-    background-color: #5A5A5A;
+    background-color: #404040;
     color: #fff;
     text-align: center;
     padding: 15px 10px;
@@ -31,7 +30,7 @@ main {
 
 /* navigation bar */
 .navbar {
-    background: #5A5A5A;
+    background: #404040;
     position: fixed;
     top: 0;
     width: 100%;
@@ -140,13 +139,12 @@ main {
 
 .mainnavdiv h3{
     color: #E0E0E0;
-    font-family: 'Playfair Display', serif;
     margin-bottom: 10px;
 }
 
 .mainnavdiv button {
     border: none;
-    background: #5A5A5A;
+    background: #404040;
     margin-top: 10px;
     width: 200px;
     height: 35px;
@@ -195,7 +193,6 @@ main {
 .title {
     font-size: 65px;
     color: #E0E0E0;
-    font-family: 'Playfair Display', serif;
 }
 
 .about-text{    
@@ -222,7 +219,7 @@ main {
 }
 
 .box{
-    background-color: #5A5A5A;
+    background-color: #404040;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
@@ -234,7 +231,6 @@ main {
     font-weight: normal; 
     padding-top: 3px;
     text-align: center;
-    font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 
@@ -383,7 +379,6 @@ main {
     color: #E0E0E0;
     margin-left: 10px;
     justify-content: center;
-    font-family: 'Playfair Display', serif;
 }
 
 /* For tablets and small desktops */
