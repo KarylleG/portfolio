@@ -306,11 +306,11 @@ main {
     }
 
     .title{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .about-text{
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .box{
@@ -320,6 +320,7 @@ main {
 
  .navbar-burger {
         display: block;
+        padding-right: 5%;
     }
 
     .nav-links {
