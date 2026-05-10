@@ -569,6 +569,7 @@ main > h2.title {
 }
 
 .contact-text {
+    width: 100%;
     max-width: 500px;
     font-family: 'Inter', sans-serif;
 }
@@ -621,6 +622,7 @@ main > h2.title {
         align-items: center;
         text-align: center;
         gap: 20px;
+        padding: 80px 20px;
     }
 
     h2.title {
@@ -628,12 +630,14 @@ main > h2.title {
     }
 
     .contact-text {
-        width: 450px;
+        width: 100%;
+        max-width: 500px;
     }
 
     .contact-text p {
         text-align: center;
         font-size: 17px;
+        padding: 10px;
     }
 
     .contact-contents {
@@ -649,15 +653,22 @@ main > h2.title {
         align-items: center;
         text-align: center;
         gap: 20px;
+        padding: 60px 15px;
     }
 
     .title {
         font-size: 30px;
     }
 
+    .contact-text {
+        width: 100%;
+        max-width: 100%;
+    }
+
     .contact-text p {
         font-size: 13px;
         text-align: center;
+        padding: 10px;
     }
 
     .contact-contents {
