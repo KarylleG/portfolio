@@ -343,6 +343,7 @@ main {
 
 .techstack-text{
     text-align:center;
+    line-height: 1.5;
     max-width: 500px;
     padding-top:45px;
     color: #E0E0E0;
@@ -353,7 +354,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    
+    gap: 20px;
 }
 
 .techstack-images{
@@ -365,16 +366,15 @@ main {
 
 .techstack-photos img{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     padding-left: 10px;
     margin-top: 20px;
     margin-left: 10px;
 }
 
-.techstack-photos h2{
+.techstack-photos h3{
     display: flex;
-    font-size: 25px;
     font-weight: normal;
     color: #E0E0E0;
     margin-left: 10px;
