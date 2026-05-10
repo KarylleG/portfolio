@@ -228,13 +228,27 @@ main {
     width: 300px;
     color: #E0E0E0;
     font-family: 'Inter', sans-serif;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
+
+.box:hover {
+    transform: translateY(-8px);
+    background-color: #4a4a4a; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
 
 .box h3 {
     font-size: 25px;
     padding-top: 3px;
     text-align: center;
     font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.box:hover h3 {
+    color: #ffffff;
 }
 
 .box p {
