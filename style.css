@@ -379,35 +379,31 @@ main {
 .techstack-images {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
     transition: 0.3s ease;
     cursor: pointer;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 .techstack-images:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
     background-color: #4a4a4a;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-.techstack-photos img {
-    display: flex;
+.techstack-images img {
     width: 90px;
     height: 90px;
-    padding-left: 10px;
     margin-top: 20px;
-    margin-left: 10px;
 }
 
-.techstack-photos h3 {
-    display: flex;
+.techstack-images h3 {
     font-weight: normal;
     color: #E0E0E0;
-    margin-left: 10px;
-    justify-content: center;
+    margin-top: 10px;
     font-family: 'Inter', sans-serif;
 }
 
