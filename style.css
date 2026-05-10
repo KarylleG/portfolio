@@ -381,6 +381,16 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.techstack-images:hover {
+    transform: scale(1.05); 
+    background-color: #4a4a4a;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .techstack-photos img {
