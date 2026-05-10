@@ -28,7 +28,6 @@ main {
     margin-top: 30px;
 }
 
-
 /* navigation bar */
 .navbar {
     font-family: 'Inter', sans-serif;
@@ -41,7 +40,7 @@ main {
 
 .navdiv {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     height: 65px;
     padding: 0 20px;
@@ -58,7 +57,7 @@ main {
     gap: 8px;
 }
 
-.logo img{
+.logo img {
     height: 50px;
     width: 50px;
 }
@@ -66,9 +65,9 @@ main {
 /* nav links */
 .nav-links {
     list-style: none;
-    display: flex; 
+    display: flex;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .nav-links a {
@@ -102,12 +101,9 @@ main {
     background-color: #7D7D7D;
 }
 
-
 /* end of navigation bar */
 
-
-
-/*main page*/
+/* main page */
 
 #particles-js {
     position: fixed;
@@ -115,11 +111,11 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; 
-    background-color:  #2B2B2B; 
+    z-index: -1;
+    background-color: #2B2B2B;
 }
 
-.mainnavdiv{
+.mainnavdiv {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,7 +123,7 @@ main {
     min-height: calc(100vh - 75px);
 }
 
-.mainnavdiv img{
+.mainnavdiv img {
     width: 230px;
     height: 230px;
     border-radius: 50%;
@@ -135,12 +131,12 @@ main {
     margin-bottom: 5px;
 }
 
-.mainnavdiv h1{
+.mainnavdiv h1 {
     color: #E0E0E0;
     font-family: 'Poppins', sans-serif;
 }
 
-.mainnavdiv h3{
+.mainnavdiv h3 {
     color: #E0E0E0;
     margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
@@ -157,40 +153,40 @@ main {
 }
 
 .mainnavdiv button a {
-    color: #E0E0E0;   
-    padding : auto;
+    color: #E0E0E0;
+    padding: auto;
     display: block;
 }
 
-.mainnavdiv button a:hover{
-   background-color: #7D7D7D;
-   color: white;
-   border-radius: 4px;
-   padding: 9px;
+.mainnavdiv button a:hover {
+    background-color: #7D7D7D;
+    color: white;
+    border-radius: 4px;
+    padding: 9px;
 }
 
-/*end of main page*/
-
+/* end of main page */
 
 /* about me */
-.about{
+
+.about {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 100px;
-    gap: 50px; 
+    gap: 50px;
 }
 
-.about-image{
+.about-image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about-image img{
+.about-image img {
     width: 100%;
-    max-width: 300px;  
+    max-width: 300px;
     height: auto;
     border-radius: 50%;
 }
@@ -201,7 +197,7 @@ main {
     font-family: 'Poppins', sans-serif;
 }
 
-.about-text{    
+.about-text {
     max-width: 500px;
     width: 100%;
     text-align: justify;
@@ -209,7 +205,7 @@ main {
     font-family: 'Inter', sans-serif;
 }
 
-.about-text p{
+.about-text p {
     font-size: 17px;
     line-height: 1.5;
     padding-top: 10px;
@@ -221,11 +217,11 @@ main {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 20px;
 }
 
-.box{
+.box {
     background-color: #404040;
     padding: 20px;
     border-radius: 10px;
@@ -234,31 +230,30 @@ main {
     font-family: 'Inter', sans-serif;
 }
 
-.box h3{
+.box h3 {
     font-size: 25px;
-    font-weight: normal; 
     padding-top: 3px;
     text-align: center;
     font-weight: bold;
 }
 
-.box p{
+.box p {
     padding: 10px;
     line-height: 1.5;
     font-size: 17px;
     text-align: justify;
 }
 
-/* responsive design for about me section*/
-/* For tablets and small desktops */
+/* responsive design for about me section */
+
 @media (max-width: 768px) and (min-width: 321px) {
-    .about{
+    .about {
         flex-direction: column;
         padding: 35px 20px;
         text-align: center;
     }
 
-    .about-image img{
+    .about-image img {
         max-width: 300px;
     }
 
@@ -266,10 +261,11 @@ main {
         font-size: 50px;
     }
 
-    .about-text{
+    .about-text {
         text-align: center;
         font-size: 25px;
     }
+
     .nav-links {
         display: none;
         flex-direction: column;
@@ -280,45 +276,44 @@ main {
         left: 0;
     }
 
-   .navbar-burger {
-    display: none;
-    cursor: pointer;
+    .navbar-burger {
+        display: none;
+        cursor: pointer;
+    }
+
+    .navbar-burger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background: #E0E0E0;
+    }
 }
 
-.navbar-burger span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px;
-    background: #E0E0E0;
-}
-}
-
-/*for mobile devices */
-@media (max-width: 768px){
-    .about{
+@media (max-width: 768px) {
+    .about {
         flex-direction: column;
         text-align: center;
     }
 
-    .about-image img{
+    .about-image img {
         max-width: 300px;
     }
 
-    .title{
+    .title {
         font-size: 30px;
     }
 
-    .about-text{
+    .about-text {
         font-size: 16px;
     }
 
-    .box{
+    .box {
         max-width: 300px;
         min-width: 250px;
     }
 
- .navbar-burger {
+    .navbar-burger {
         display: block;
         padding-right: 5%;
     }
@@ -340,9 +335,9 @@ main {
 
 /* end of about me */
 
+/* tech stack */
 
-/*tech stack*/
-.techstack{
+.techstack {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -350,16 +345,16 @@ main {
     padding-top: 50px;
 }
 
-.techstack-text{
-    text-align:center;
+.techstack-text {
+    text-align: center;
     line-height: 1.5;
     max-width: 500px;
-    padding-top:45px;
+    padding-top: 45px;
     color: #E0E0E0;
     font-family: 'Inter', sans-serif;
 }
 
-.techstack-photos{
+.techstack-photos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -367,14 +362,14 @@ main {
     gap: 20px;
 }
 
-.techstack-images{
+.techstack-images {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  /*edit here*/
+    align-items: center;
 }
 
-.techstack-photos img{
+.techstack-photos img {
     display: flex;
     width: 90px;
     height: 90px;
@@ -383,7 +378,7 @@ main {
     margin-left: 10px;
 }
 
-.techstack-photos h3{
+.techstack-photos h3 {
     display: flex;
     font-weight: normal;
     color: #E0E0E0;
@@ -392,13 +387,12 @@ main {
     font-family: 'Inter', sans-serif;
 }
 
-/* For tablets and small desktops */
 @media (max-width: 768px) and (min-width: 321px) {
-    .techstack{
+    .techstack {
         padding: 50px 20px;
     }
 
-    .techstack-text{
+    .techstack-text {
         font-size: 25px;
     }
 
@@ -417,15 +411,12 @@ main {
     }
 }
 
-/*for mobile devices */
-@media (max-width: 768px){
-   
+@media (max-width: 768px) {
 }
 
-/*end of tech stack*/
+/* end of tech stack */
 
-
-/*Certifications*/
+/* certifications */
 
 main > h2.title {
     text-align: center;
@@ -434,20 +425,21 @@ main > h2.title {
 
 .certifications {
     display: flex;
-    justify-content: center;   
-    gap: 50px;                        
+    justify-content: center;
+    gap: 50px;
     padding-top: 10px;
 }
 
 .certification-contents {
     display: flex;
-    flex-direction: column;    
-    align-items: center;      
-    text-align: center;        
-    max-width: 550px;       
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 550px;
     width: 100%;
-    gap: 15px;               
+    gap: 15px;
 }
+
 .certification-title {
     font-size: 25px;
     color: #E0E0E0;
@@ -478,18 +470,19 @@ main > h2.title {
 }
 
 .certification-contents button a {
-    color: #E0E0E0;   
-    padding : auto;
+    color: #E0E0E0;
+    padding: auto;
     display: block;
 }
 
-.certification-contents button a:hover{
-   background-color: #7D7D7D;
-   color: white;
-   border-radius: 4px;
-   padding: 9px;
+.certification-contents button a:hover {
+    background-color: #7D7D7D;
+    color: white;
+    border-radius: 4px;
+    padding: 9px;
 }
 
+/* responsive */
 
 @media (max-width: 768px) and (min-width: 321px) {
     .certifications {
@@ -499,7 +492,7 @@ main > h2.title {
         padding: 15px 10px;
     }
 
-    .certification-contents img{
+    .certification-contents img {
         width: 90%;
         height: auto;
     }
@@ -514,8 +507,7 @@ main > h2.title {
     }
 }
 
-/*for mobile devices */
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .certifications {
         flex-direction: column;
         align-items: center;
@@ -523,7 +515,7 @@ main > h2.title {
         padding: 10px 20px;
     }
 
-    .certification-contents img{
+    .certification-contents img {
         width: 90%;
         height: auto;
     }
@@ -565,31 +557,31 @@ main > h2.title {
         display: flex;
     }
 }
-/*end of certifications*/
 
-/*Contact Me*/
-.contact{
-    display: flex;           
+/* contact */
+
+.contact {
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;  
-    padding: 200px;                
+    gap: 40px;
+    padding: 200px;
 }
 
-.contact-text{
+.contact-text {
     max-width: 500px;
     font-family: 'Inter', sans-serif;
 }
 
-.contact-text p{
+.contact-text p {
     font-size: 17px;
     line-height: 1.5;
-    text-align: left;         
+    text-align: left;
     margin-top: 20px;
     color: #E0E0E0;
 }
 
-.contact-contents{
+.contact-contents {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -597,7 +589,7 @@ main > h2.title {
     padding-top: 59px;
 }
 
-.contact-contents button{
+.contact-contents button {
     border: none;
     background: #5A5A5A;
     width: 200px;
@@ -620,9 +612,10 @@ main > h2.title {
     border-radius: 5px;
 }
 
-/* For tablets and small desktops */
+/* responsive contact */
+
 @media (max-width: 768px) and (min-width: 321px) {
-    .contact{
+    .contact {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -630,15 +623,15 @@ main > h2.title {
         gap: 20px;
     }
 
-    h2.title{
+    h2.title {
         font-size: 50px;
     }
 
-    .contact-text{
-       width: 450px;
+    .contact-text {
+        width: 450px;
     }
 
-    .contact-text p{
+    .contact-text p {
         text-align: center;
         font-size: 17px;
     }
@@ -649,9 +642,8 @@ main > h2.title {
     }
 }
 
-/*for mobile devices */
-@media (max-width: 320px){
-    .contact{
+@media (max-width: 320px) {
+    .contact {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -659,21 +651,19 @@ main > h2.title {
         gap: 20px;
     }
 
-    .title{
+    .title {
         font-size: 30px;
     }
 
-    .contact-text p{
+    .contact-text p {
         font-size: 13px;
         text-align: center;
-
     }
 
-    .contact-contents{
+    .contact-contents {
         padding-top: 0;
     }
 
-    /* show burger */
     .navbar-burger {
         display: block;
         cursor: pointer;
@@ -697,7 +687,7 @@ main > h2.title {
         left: 0;
         text-align: center;
     }
-    
+
     .nav-links.is-active {
         display: flex;
     }
