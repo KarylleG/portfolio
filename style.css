@@ -7,7 +7,7 @@
 body {
     background-color: #2B2B2B;
     margin: 0;
-    padding-top: 75px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -676,7 +676,7 @@ main > h2.title {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 200px;
+    min-height: calc(100vh - 150px);
 }
 
 .contact-text {
@@ -689,7 +689,6 @@ main > h2.title {
     font-size: 17px;
     line-height: 1.5;
     text-align: left;
-    margin-top: 20px;
     color: #E0E0E0;
 }
 
@@ -698,7 +697,6 @@ main > h2.title {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 59px;
 }
 
 .contact-contents button {
