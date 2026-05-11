@@ -342,6 +342,7 @@ main {
         left: 0;
     }
 
+
     .nav-links.is-active {
         display: flex;
     }
@@ -368,6 +369,20 @@ main {
     font-family: 'Inter', sans-serif;
 }
 
+.techstack-legends {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.techstack-legends h4 {
+    padding-left: 10px;
+    color: #E0E0E0;
+    font-family: 'Inter', sans-serif;
+}
+
 .techstack-photos {
     display: flex;
     justify-content: center;
@@ -381,11 +396,27 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 5px;
     text-align: center;
     transition: 0.3s ease;
     cursor: pointer;
+}
+
+.frontend {
+    border-left: 4px solid #4DA3FF;
+}
+
+.backend{
+    border-left: 4px solid #FF5C5C;
+}
+
+.database {
+    border-left: 4px solid #2ECC71;
+}
+
+.devtools {
+    border-left: 4px solid #F1C40F;
 }
 
 .techstack-images:hover {
@@ -395,9 +426,8 @@ main {
 }
 
 .techstack-images img {
-    width: 90px;
-    height: 90px;
-    margin-top: 20px;
+    width: 80px;
+    height: 80px;
 }
 
 .techstack-images h3 {
