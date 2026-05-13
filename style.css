@@ -530,6 +530,7 @@ main > h2.title {
     justify-content: center;
     gap: 50px;
     padding-top: 10px;
+    flex-wrap: wrap;
 }
 
 .certification-contents {
