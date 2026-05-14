@@ -783,7 +783,6 @@ main > h2.title {
         align-items: center;
         text-align: center;
         gap: 20px;
-        padding: 80px 20px;
     }
 
     h2.title {
@@ -803,7 +802,6 @@ main > h2.title {
 
     .contact-contents {
         flex-direction: column;
-        padding-top: 10px;
     }
 }
 
@@ -814,7 +812,6 @@ main > h2.title {
         align-items: center;
         text-align: center;
         gap: 20px;
-        padding: 60px 15px;
     }
 
     .title {
