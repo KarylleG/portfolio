@@ -745,7 +745,7 @@ main > h2.title {
 .contact-contents button {
     border: none;
     background: #404040;
-    width: 200px;
+    width: 190px;
     height: 35px;
     border-radius: 4px;
     margin: 5px;
@@ -754,15 +754,24 @@ main > h2.title {
 
 .contact-links a {
     color: #E0E0E0;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     text-decoration: none;
-    padding: 9px;
+    padding: 8px;
+    font-size: 15px;
 }
 
 .contact-links a:hover {
     background-color: #7D7D7D;
     color: #E0E0E0;
     border-radius: 5px;
+}
+
+.contact-links img {
+    width: 20px;
+    height: 20px;
 }
 
 /* responsive contact */
