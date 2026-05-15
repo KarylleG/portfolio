@@ -230,7 +230,6 @@ main {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-
 .box h3 {
     font-size: 25px;
     padding-top: 3px;
@@ -333,7 +332,6 @@ main {
         top: 65px;
         left: 0;
     }
-
 
     .nav-links.is-active {
         display: flex;
@@ -447,7 +445,7 @@ main {
         text-align: center;
     }
 
-     .techstack-legends {
+    .techstack-legends {
         flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
@@ -466,7 +464,7 @@ main {
     }
 
     .techstack-images img {
-        width: 80px;
+        width: px;
         height: 80px;
     }
 
@@ -668,14 +666,12 @@ main > h2.title {
     }
 }
 
-
 .lightbox {
     display: none;
     position: fixed;
     z-index: 9999;
     inset: 0;
     background: rgba(0, 0, 0, 0.85);
-
     justify-content: center;
     align-items: center;
 }
