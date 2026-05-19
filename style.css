@@ -552,6 +552,7 @@ main > h2.title {
     height: auto;
     border-radius: 5px;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .certification-contents img:hover {
