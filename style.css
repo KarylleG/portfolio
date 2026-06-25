@@ -538,7 +538,7 @@ main > h2.title {
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding-top: 10px;
+    padding-top: 25px;
     flex-wrap: wrap;
 }
 
@@ -580,7 +580,6 @@ main > h2.title {
 .certification-contents button {
     border: none;
     background: #404040;
-    margin-top: 10px;
     margin-bottom: 30px;
     width: 220px;
     height: 40px;
